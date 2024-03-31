@@ -18,7 +18,7 @@ import React, { useContext } from "react";
 // import { SignOutIcon } from "@/icons/SignOutIcon";
 import { usePathname } from "next/navigation";
 // import { CartContext } from "../../util/ContextProvider";
-import { useProfile } from "../hooks/useProfile";
+// import { useProfile } from "../hooks/useProfile";
 
 const Header = () => {
   // const { data: session } = useSession();
