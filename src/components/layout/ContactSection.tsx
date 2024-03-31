@@ -3,7 +3,7 @@ import { Button, Input, Textarea } from "@nextui-org/react";
 import { FormEvent, LegacyRef, useMemo, useRef, useState } from "react";
 import Map from "../common/Map";
 import { SectionProps } from "@/types/SectionProps";
-import ContactUsForm from "../common/form/ContactUsForm";
+// import ContactUsForm from "../common/form/ContactUsForm";
 
 const ContactSecton = ({ className }: SectionProps) => {
   return (
@@ -19,7 +19,7 @@ const ContactSecton = ({ className }: SectionProps) => {
               We&apos;d love to talk about how we can help you.
             </p>
           </div>
-          <ContactUsForm />
+          {/* <ContactUsForm /> */}
         </div>
       </div>
     </section>

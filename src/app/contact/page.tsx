@@ -1,4 +1,4 @@
-import ContactUsForm from "@/components/common/form/ContactUsForm";
+// import ContactUsForm from "@/components/common/form/ContactUsForm";
 import React from "react";
 
 const ContactPage = () => {
@@ -22,9 +22,7 @@ const ContactPage = () => {
             <span className="text-primary">Monday-Friday 9:00am - 9:00pm</span>
           </p>
         </div>
-        <div className="container">
-          <ContactUsForm />
-        </div>
+        <div className="container">{/* <ContactUsForm /> */}</div>
       </div>
     </div>
   );
