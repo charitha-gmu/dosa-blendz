@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 // import { CartIcon } from "@/icons/CartIcon";
 import {
@@ -32,6 +33,11 @@ const Header = () => {
       classNames={{ item: "data-[active=true]:text-primary" }}
     >
       <NavbarBrand>
+        <img
+          src="/assets/Dosa-Blendz.png"
+          alt="logo"
+          style={{ height: "100px" }}
+        ></img>
         <Link href="/" className="text-primary text-2xl font-josefin">
           Dosa Blendz
         </Link>

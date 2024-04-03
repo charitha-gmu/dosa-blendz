@@ -21,7 +21,7 @@ const HomeSlider = ({ className }: SectionProps) => {
                   We cook your desired <span className="block">DOSA</span>
                 </h1>
                 <h2 className="mb-16 text-[30px] text-black font-semibold">
-                  Where our tradition blends with your nutrition
+                  Where tradition blends with nutrition
                 </h2>
               </div>
             </SlideBackground>
