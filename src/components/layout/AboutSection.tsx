@@ -5,7 +5,7 @@ const AboutSection = ({ className }: SectionProps) => {
   return (
     <section id="about" className={className}>
       <div className="grid grid-cols-2">
-        <div className="bg-[url('/assets/about.jpg')] bg-center bg-no-repeat bg-cover"></div>
+        <div className="bg-[url('/assets/foodtruck.jpeg')] bg-center bg-no-repeat bg-cover"></div>
         <div className="p-24">
           <h1 className="mb-4 text-center">
             <span className=" text-primary">Dosa Blendz</span>
